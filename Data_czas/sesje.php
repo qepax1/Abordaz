@@ -7,4 +7,5 @@ $_SESSION['animal'] = 'dog';
 $_SESSION['time'] = time();
 
 echo '<br>/><a href="session2.php">page 2</a';
+
 ?>
