@@ -1,0 +1,3 @@
+# test
+testowanie
+nowy tekst w do cwiczenia comit-ów
