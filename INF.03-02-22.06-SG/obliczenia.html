@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Stacja paliw</title>
+        <link rel="stylesheet" href="styl2.css">
+        
+    </head>
+    <body>
+        <h2>orientacyjny koszt paliwa</h2>
+        <form>
+            <label for="rodzaj">
+               rodzaj paliwa (1-benzyna , 2-olej napędowy)""</label><br>
+            <input type="number" id="rodzaj"
+            name="rodzaj"><br>
+            <label for="ile">Ile litrów</label>
+            <br>
+            <input type="number" id="ile"
+            name="ile"><br>
+            <button id="oblicz">oblicz</button>
+            
+        </form>
+        <p id="wynik"></p>
+        <script>
+            document.querySelector("#oblicz").onclick=obliczCene;
+            function obliczCene(){
+                let ile=document.querySelector("#rodzaj").value;
+                let rodzaj=document.querySelector("#rodzaj").value
+                if ( rodzaj==1 ){
+                    let cena=4;
+                } else{
+                    if (rodzaj==2){
+                        let cena=3.5;
+                        
+                    }else{
+                        let cena=0
+                    }
+
+                }
+            }
+        </script>
+
+
+    </body>
